@@ -260,7 +260,7 @@ function fetchUserInfo(id) {
 	  // Replace 'base-url' with the base URL of your Spring Boot application
 	  const baseUrl = 'https://certificatedownload-production.up.railway.app';
 	  const apiUrl = `${baseUrl}/index.html/${id}`;
-
+		console.log("**************************");
 	  // Make the AJAX request
 	  fetch(apiUrl)
 	    .then((response) => response.json())
